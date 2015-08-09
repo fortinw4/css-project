@@ -1,0 +1,108 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	box-sizing: border-box;
+}
+.panel > div {
+	width: 960px;
+	height: 400px;
+	margin: 0 auto;
+}
+.hero {
+	background-color: teal;
+}
+.hero > div {
+	background-color: lightblue;
+}
+.hero > div > div:nth-child(3) {
+	width: 960px;
+	height: 100px;
+	background-color: magenta;
+	color: #ffffff;
+	position: relative;
+	margin-top: 160px;
+	text-align: center;
+}
+.contact {
+	background-color: purple;
+}
+.contact > div:first-child {
+	background-color: lime;
+	width: 480px;
+	position: absolute;
+	margin-left: 150px;
+}
+
+.contact > div:first-child > div {
+	width: 960px;
+	height: 100px;
+	background-color: darkgreen;
+	color: #ffffff;
+	text-align: center;
+}
+.contact > div:first-child > div > div:first-child {
+	width: 280px;
+	height: 150px;
+	background-color: black;
+	position: absolute;
+	transform:translate(10%, -10%);
+}
+
+.contact > div:first-child > div > div:nth-child(2) {
+	width: 280px;
+	height: 150px;
+	background-color: pink;
+	position: absolute;
+	transform:translate(120%, -10%);
+}
+
+.contact > div:first-child > div > div:nth-child(3) {
+	width: 280px;
+	height: 150px;
+	background-color: violet;
+	position: absolute;
+	transform:translate(230%, -10%);
+}
+
+.contact > div:last-child {
+	background-color: blue;
+
+}
+
+.contact > div:last-child > div {
+	background-color: yellow;
+	width: 300px;
+	height: 100px;
+	position: absolute;
+	transform:translate(10%, 200%);
+}
+
+.contact > div:last-child > div > div {
+	float: left;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+
+
+nav {
+	background-color: green;
+	height: 40px;
+}
+nav > a {
+	color: #ffffff;
+	text-decoration: none;
+	position: relative;
+	padding: 22px;
+}
+.header {
+	background-color: orange;
+	height: 80px;
+}
+.header > p {
+	color: #ffffff;
+	background-color: red;
+	position: absolute;
+}
+.form {
+	text-align: right;
+}
